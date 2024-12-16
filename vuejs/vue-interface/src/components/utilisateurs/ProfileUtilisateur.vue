@@ -20,7 +20,8 @@
         </div>
     </main>
 </template>
-
+<!--  Pour l enregistrement de la photo du user, il faut ajouter un champ image ou photo dans le modele client de notre projet-->
+</template>
 <script setup>
 import useUser from "@/services/serviceUtilisateur";
 import { onBeforeMount, ref } from "vue";
