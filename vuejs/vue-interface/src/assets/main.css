@@ -1,0 +1,52 @@
+@import './base.css';
+
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  font-weight: normal;
+}
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+.logo {
+  width: 100px;  /* Définir une largeur spécifique */
+  height: auto;  /* Ajuste la hauteur automatiquement pour conserver les proportions */
+}
+.welcome {
+  background-color: #f0f8ff;  /* Choisissez une couleur de fond douce */
+  padding: 20px;  /* Ajoute un peu de padding autour du texte */
+  border-radius: 10px;  /* Arrondir les coins du div */
+  text-align: center;  /* Centre le texte à l'intérieur du div */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ajoute une ombre légère autour du div */
+  margin: 20px auto;  /* Ajoute une marge pour espacer du reste du contenu */
+  max-width: 500px;  /* Limite la largeur du div */
+}
+
+.welcome label {
+  font-size: 18px;  /* Définir la taille de la police */
+  color: #333;  /* Choisir une couleur de texte sombre pour plus de lisibilité */
+  font-family: 'Arial', sans-serif;  /* Choisir une police sans empattement */
+  font-weight: bold;  /* Mettre le texte en gras */
+}
+.titre{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Met le titre en majuscules */
+    letter-spacing: 1px; /* Espacement entre les lettres */
+}
